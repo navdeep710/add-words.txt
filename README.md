@@ -67,6 +67,8 @@ Get a list of all the arguments:
 Start a dictionary attack with a wordlist:
 
     $ pdfrip -f encrypted.pdf wordlist rockyou.txt
+    eg with all dictionary words(included in repo)
+    $ pdfrip -f encrypted.pdf wordlist words.txt
     
 Bruteforce number ranges for the password:
 
